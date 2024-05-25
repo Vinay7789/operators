@@ -1,0 +1,22 @@
+import java.util.*;
+public class associativity {
+    public static void main(String[] args) {
+        Scanner sc= new Scanner(System.in);
+        System.out.println("enter your english marks");
+        float a= sc.nextFloat();
+        System.out.println("enter your hindi marks");
+        float b= sc.nextFloat();
+        System.out.println("enter your science marks");
+        float c= sc.nextFloat();
+        System.out.println("enter your maths works");
+        float d= sc.nextFloat();
+        System.out.println("enter your physical science marks");
+        float e=sc.nextFloat();
+        System.out.println("the sum is");
+        float sum=a+b+c+d+e;
+        float percentage=((sum)/500.0f)*100;
+        System.out.println("the percentage is");
+        System.out.println(percentage);
+
+    }
+}
