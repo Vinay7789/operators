@@ -1,0 +1,27 @@
+import java.util.*;
+public class associativity {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String name = "harry";
+        System.out.println(name.length());
+        System.out.println(name.toUpperCase());
+        String nontrimmedstring="  Hello  ";
+        System.out.println(nontrimmedstring.trim());
+        System.out.println(name.substring(2));
+        System.out.println(name.substring(2,4));
+        System.out.println(name.replace('r','p'));
+        System.out.println(name.replace("rry","ier"));
+        System.out.println(name.startsWith("ha"));
+        System.out.println(name.endsWith("rry"));
+        System.out.println(name.charAt(3));
+        System.out.println(name.indexOf('r'));
+    
+        String modified="Harryrry";
+        System.out.println(modified.indexOf("rry",4));
+        System.out.println(modified.lastIndexOf('r'));
+        System.out.println(modified.lastIndexOf("rry",4));
+        
+        System.out.println(name.equals("harry"));
+        System.out.println(name.equalsIgnoreCase("HaRrY"));
+    }
+}
